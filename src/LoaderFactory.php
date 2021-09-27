@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Woda\WordPress\Asset\MixManifest;
 
 use Psr\Container\ContainerInterface;
-use Woda\WordPress\Asset\Loader\AbstractJsonLoaderFactory;
+use Woda\WordPress\Asset\Inpsyde\AbstractJsonLoaderFactory;
 
 final class LoaderFactory extends AbstractJsonLoaderFactory
 {

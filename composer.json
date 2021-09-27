@@ -50,7 +50,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "woda/wp-asset": "v1.x-dev",
+        "woda/wp-inpsyde-assets": "v1.x-dev",
         "woda/wp-config": "v1.x-dev",
         "woda/wp-hook": "v1.x-dev"
     },

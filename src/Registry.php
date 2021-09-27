@@ -6,7 +6,6 @@ namespace Woda\WordPress\Asset\MixManifest;
 
 use Inpsyde\Assets\Asset;
 use Inpsyde\Assets\AssetManager;
-use Woda\WordPress\Asset\Loader\MixManifestLoader;
 use Woda\WordPress\Hook\HookCallbackProviderInterface;
 
 use function add_action;
@@ -19,7 +18,7 @@ use function rtrim;
 
 final class Registry implements HookCallbackProviderInterface
 {
-    private MixManifestLoader $loader;
+    private Loader $loader;
     private string $path;
     private string $url;
     /** @var list<string> */
@@ -29,7 +28,7 @@ final class Registry implements HookCallbackProviderInterface
      * @param list<string> $mixManifestFiles
      */
     public function __construct(
-        MixManifestLoader $loader,
+        Loader $loader,
         string $path,
         string $url,
         array $mixManifestFiles
