@@ -21,9 +21,8 @@ final class ConfigProvider
             ],
             'hook' => [
                 'provider' => [
-                    \Woda\WordPress\Asset\ConfigProvider::class,
                     Registry::class,
-                ]
+                ],
             ],
             'dependencies' => [
                 'aliases' => [],

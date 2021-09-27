@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Woda\WordPress\Asset\MixManifest;
 
 use Woda\WordPress\Asset\Inpsyde\AbstractJsonLoader;
+
 use function parse_str;
 use function pathinfo;
 
