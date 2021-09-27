@@ -1,0 +1,38 @@
+### Plugin ###
+/assets
+/dist
+
+# GulpPress Local Config
+gulppress.local.config.ts
+
+### Logs ###
+*.log
+
+### Composer ###
+/vendor
+vendor
+composer.lock
+
+### Node ###
+.node/
+node_modules/
+npm-debug.log
+.npmrc
+
+### Log files ###
+npm-debug.log*
+yarn-error.log*
+
+### Mac OSX + Windows ###
+.DS_Store
+Thumbs.db
+
+### Vim ###
+*.sw[op]
+*.un~
+
+### Editor directory ###
+.idea
+.vscode
+**/.idea
+**/.vscode
