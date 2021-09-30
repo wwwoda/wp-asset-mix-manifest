@@ -19,6 +19,11 @@ final class ConfigProvider
                     '/dist/mix-manifest.json',
                 ],
             ],
+            'services' => [
+                'config' => [
+                    \Woda\WordPress\Asset\Inpsyde\ConfigProvider::class,
+                ],
+            ],
             'hook' => [
                 'provider' => [
                     Registry::class,
