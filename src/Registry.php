@@ -46,7 +46,11 @@ final class Registry implements HookCallbackProviderInterface
 
     public function registerAssets(AssetManager $assetManager): void
     {
-        $assetManager->register(...$this->loadAssets());
+        $assets = $this->loadAssets();
+        if (count($assets) < 1) {
+            return;
+        }
+        $assetManager->register(...$assets);
     }
 
     /**
