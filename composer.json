@@ -51,8 +51,8 @@
     "require": {
         "php": "^7.4",
         "woda/wp-inpsyde-assets": "v1.x-dev",
-        "woda/wp-config": "v1.x-dev",
-        "woda/wp-hook": "v1.x-dev"
+        "woda/wp-config": "^1.0",
+        "woda/wp-hook": "^1.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
