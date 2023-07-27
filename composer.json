@@ -50,9 +50,9 @@
     ],
     "require": {
         "php": ">=7.4",
-        "woda/wp-inpsyde-assets": "v1.x-dev",
-        "woda/wp-config": "^1.0",
-        "woda/wp-hook": "^1.0"
+        "woda/wp-inpsyde-assets": "dev-php8",
+        "woda/wp-config": "dev-php8",
+       "woda/wp-hook": "dev-php8"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
@@ -66,7 +66,7 @@
         "phpunit/phpunit": "^9.3",
         "szepeviktor/phpstan-wordpress": "^0.7.3",
         "thecodingmachine/phpstan-safe-rule": "^1.0",
-        "woda/wp-test-double": "v1.x-dev"
+        "woda/wp-test-double": "dev-php8"
     },
     "config": {
         "sort-packages": true
